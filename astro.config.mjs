@@ -4,6 +4,7 @@ import icon from "astro-icon";
 
 export default defineConfig({
   site: "https://fincastrov.github.io", // update me!
+  base: '/',
   integrations: [
     icon(),
     sitemap({
