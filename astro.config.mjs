@@ -4,7 +4,7 @@ import icon from "astro-icon";
 
 export default defineConfig({
   site: "https://fincastrov.github.io", // update me!
-  base: '/',
+  base: '/fincastrov/',
   output: 'static',
   integrations: [
     icon(),
